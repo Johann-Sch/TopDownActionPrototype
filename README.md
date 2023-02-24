@@ -1,6 +1,6 @@
-# TopDownActionPrototype
+# TopDown Action Prototype
 
-**Unity version:** 2020.3.17f1
+**Unity version:** 2020.3.17f1  
 **Dev time:** 23h~23h30
 
 ## Features:
@@ -19,7 +19,7 @@ AIs sometimes stays in chase state when they are already close enough to the pla
 ## Details
 The entities use a basic Character - Controller architecture : the Playable/Enemy Character and Player/AI Controller uses the same common code to simplify scalability.
 
-AI enemies use an FSM that needs a Controller as an owner.
+AI enemies use an FSM that needs a Controller as an owner.  
 The states contain a list of transition that are checked each frame.
 
 Inputs are handled with the input systems events to avoid calls going through all components.
